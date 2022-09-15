@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+  width="686.4px" height="143px" viewBox="-10 -10 528 110" version="1.1">
+<![CDATA[
+clock	 _~_~_~_~_~_:...:_~_~_~_~_~_~_:...:_~_~_~_~_~_
+sending  =?====X="d[x]"====:...:=====X?=X="d[x+1]"====:...:=====X="d[x+2]"====
+sendable ~~~~~______:...:___~~~~______:...:___~~______
+sendreq  ___~~______:...:_____~~____~~:...:~~~~~______
+data     =="d[x]"===X="d[x+1]"====:...:=======X="d[x+2]"====:...:=====X="d[x+3]"====
+]]>
+<g>
+<text x="35" y="8.5" text-anchor="end" font-size="10" fill="black" font-family="Helvetica">clock</text>
+<text x="185" y="8.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">...</text>
+<text x="365" y="8.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">...</text>
+<path stroke-linecap="round" stroke-width="0.6" stroke="black" fill="none" d="M42,10H52L54,0H64L66,10H76L78,0H88L90,10H100L102,0H112L114,10H124L126,0H136L138,10H148L150,0H160L162,10H172M198,10H208L210,0H220L222,10H232L234,0H244L246,10H256L258,0H268L270,10H280L282,0H292L294,10H304L306,0H316L318,10H328L330,0H340L342,10H352M378,10H388L390,0H400L402,10H412L414,0H424L426,10H436L438,0H448L450,10H460L462,0H472L474,10H484L486,0H496L498,10H508" />
+
+<text x="35" y="28.5" text-anchor="end" font-size="10" fill="black" font-family="Helvetica">sending</text>
+
+<path stroke="none" d="M42,20H100L101,25L100,30H42Z" fill="#ccc"/><text x="71" y="28.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">?</text>
+<text x="137" y="28.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">d[x]</text>
+<text x="185" y="28.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">...</text>
+
+<path stroke="none" d="M258,20H280L281,25L280,30H258L257,25Z" fill="#ccc"/><text x="269" y="28.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">?</text>
+<text x="317" y="28.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">d[x+1]</text>
+<text x="365" y="28.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">...</text>
+<text x="473" y="28.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">d[x+2]</text>
+<path stroke-linecap="round" stroke-width="0.6" stroke="black" fill="none" d="M42,30H100L102,20H172M42,20H100L102,30H172M198,30H256L258,20H280L282,30H352M198,20H256L258,30H280L282,20H352M378,30H436L438,20H508M378,20H436L438,30H508" />
+
+<text x="35" y="48.5" text-anchor="end" font-size="10" fill="black" font-family="Helvetica">sendable</text>
+<text x="185" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">...</text>
+<text x="365" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">...</text>
+<path stroke-linecap="round" stroke-width="0.6" stroke="black" fill="none" d="M42,40H100L102,50H172M198,50H232L234,40H280L282,50H352M378,50H412L414,40H436L438,50H508" />
+
+<text x="35" y="68.5" text-anchor="end" font-size="10" fill="black" font-family="Helvetica">sendreq</text>
+<text x="185" y="68.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">...</text>
+<text x="365" y="68.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">...</text>
+<path stroke-linecap="round" stroke-width="0.6" stroke="black" fill="none" d="M42,70H76L78,60H100L102,70H172M198,70H256L258,60H280L282,70H328L330,60H352M378,60H436L438,70H508" />
+
+<text x="35" y="88.5" text-anchor="end" font-size="10" fill="black" font-family="Helvetica">data</text>
+<text x="71" y="88.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">d[x]</text>
+<text x="137" y="88.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">d[x+1]</text>
+<text x="185" y="88.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">...</text>
+<text x="317" y="88.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">d[x+2]</text>
+<text x="365" y="88.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">...</text>
+<text x="473" y="88.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">d[x+3]</text>
+<path stroke-linecap="round" stroke-width="0.6" stroke="black" fill="none" d="M42,90H100L102,80H172M42,80H100L102,90H172M198,90H280L282,80H352M198,80H280L282,90H352M378,90H436L438,80H508M378,80H436L438,90H508" />
+
+</g>
+</svg>
