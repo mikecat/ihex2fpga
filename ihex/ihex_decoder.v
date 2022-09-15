@@ -57,7 +57,7 @@ module ihex_decoder(
 		is_number ? data_in[3:0] :
 		is_upper | is_lower ? data_in[3:0] + 4'd9 :
 		4'd0;
-	wire [7:0] byte = {first_nibble, xdigit};
+	wire [7:0] byte_read = {first_nibble, xdigit};
 
 	always @(posedge clock) begin
 		if (reset) begin
@@ -122,8 +122,8 @@ module ihex_decoder(
 									end
 								endcase
 							end
-							checksum_computed <= checksum_computed + byte;
-							last_byte <= byte;
+							checksum_computed <= checksum_computed + byte_read;
+							last_byte <= byte_read;
 							last_byte_valid <= 1'b1;
 						end else begin
 							first_nibble <= xdigit;
